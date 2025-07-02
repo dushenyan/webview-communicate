@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>uni-app-web-view</title>
+  <!-- 微信 JS-SDK 如果不需要兼容小程序，则无需引用此 JS 文件 -->
+  <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+  <!-- uni 的 SDK -->
+  <script type="text/javascript" src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.0.1.52.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('UniAppJSBridgeReady', function () {
+      window.uni = uni
+    });
+    console.log(window)
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
