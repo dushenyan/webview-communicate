@@ -2,7 +2,7 @@
   "name": "webview-communicate",
   "description": "WebView通信解决方案，支持多平台",
   "repository": "https://github.com/dushenyan/webview-communicate",
-  "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/webassembly.svg",
+  "iconUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/webassembly.svg",
   "main": "index.js",
   "author": "dushenyan <dushenyan88@gmail.com>"
 }
