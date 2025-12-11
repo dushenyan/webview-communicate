@@ -1,12 +1,8 @@
 {
   "name": "webview-communicate",
-  "version": "1.0.0",
-  "description": "",
+  "description": "WebView通信解决方案，支持多平台",
+  "repository": "https://github.com/dushenyan/webview-communicate",
+  "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/webassembly.svg",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "dushenyan <dushenyan88@gmail.com>"
 }
